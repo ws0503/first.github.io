@@ -32,3 +32,20 @@ if(!localStorage.getItem('name')) {
 myButton.onclick = function() {
   setUserName();
 }
+
+
+function multiply(num1,num2) {
+  var result = num1 * num2;
+  return result;
+}
+
+document.getElementById('multiply').onclick = function() {
+    // var multiply_result = multiply(20,20);
+    // document.getElementById("result").value = multiply_result;
+
+    var firstnum = document.querySelector('input[name="first"]').value;
+    var secondnum = document.querySelector('input[name="second"]').value;
+     // var multiply_result = multiply(firstnum,secondnum);
+    document.getElementById("result").value = multiply(firstnum,secondnum);
+    
+};
