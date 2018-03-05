@@ -1,15 +1,15 @@
 html {
   font-size: 12px; /* px 意为“像素（pixels）”: 这个基础字体的尺寸现在是10像素  */
   font-family: 'Comfortaa', cursive;
-  background-color: #30A3A8;
+  background-color: #C2A2B1;
 }
 
 body {
   width: 600px;
   margin: 0 auto;
-  background-color: #DC97AF;
-  padding: 0 20px 20px 20px;
-  border: 5px solid white;
+  background-color: 632037;
+  padding: 0 100px 500px 100px;
+  border: 2px solid white;
 }
 
 h1 {
